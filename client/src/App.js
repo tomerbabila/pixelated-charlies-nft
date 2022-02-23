@@ -176,7 +176,7 @@ function App() {
 
   const getConfig = async () => {
     const configResponse = await fetch(
-      `${window.location.href}/config/config.json`,
+      `${process.env.REACT_APP_BASE_URL}/config/config.json`,
       {
         headers: {
           'Content-Type': 'application/json',
@@ -204,7 +204,7 @@ function App() {
         style={{ padding: 24, backgroundColor: 'var(--primary)' }}
         image={
           CONFIG.SHOW_BACKGROUND
-            ? `${window.location.href}/config/images/bg.png`
+            ? `${process.env.REACT_APP_BASE_URL}/config/images/bg.png`
             : null
         }
       >
@@ -214,7 +214,7 @@ function App() {
           <s.Container flex={1} jc={'center'} ai={'center'}>
             <StyledImg
               alt={'example'}
-              src={`${window.location.href}/config/images/example.gif`}
+              src={`${process.env.REACT_APP_BASE_URL}/config/images/example.gif`}
             />
           </s.Container>
           <s.SpacerLarge />
@@ -383,7 +383,7 @@ function App() {
           <s.Container flex={1} jc={'center'} ai={'center'}>
             <StyledImg
               alt={'example'}
-              src={`${window.location.href}/config/images/example.gif`}
+              src={`${process.env.REACT_APP_BASE_URL}/config/images/example.gif`}
               style={{ transform: 'scaleX(-1)' }}
             />
           </s.Container>
