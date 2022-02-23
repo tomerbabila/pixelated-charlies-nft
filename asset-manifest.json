@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pixelated-charlies-nft/static/css/main.0eb96bd2.chunk.css",
-    "main.js": "/pixelated-charlies-nft/static/js/main.5a5e139a.chunk.js",
-    "main.js.map": "/pixelated-charlies-nft/static/js/main.5a5e139a.chunk.js.map",
+    "main.js": "/pixelated-charlies-nft/static/js/main.20dc8b32.chunk.js",
+    "main.js.map": "/pixelated-charlies-nft/static/js/main.20dc8b32.chunk.js.map",
     "runtime-main.js": "/pixelated-charlies-nft/static/js/runtime-main.8bfb25d5.js",
     "runtime-main.js.map": "/pixelated-charlies-nft/static/js/runtime-main.8bfb25d5.js.map",
     "static/js/2.26d65319.chunk.js": "/pixelated-charlies-nft/static/js/2.26d65319.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.8bfb25d5.js",
     "static/js/2.26d65319.chunk.js",
     "static/css/main.0eb96bd2.chunk.css",
-    "static/js/main.5a5e139a.chunk.js"
+    "static/js/main.20dc8b32.chunk.js"
   ]
 }
