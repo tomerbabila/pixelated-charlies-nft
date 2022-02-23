@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pixelated-charlies-nft/static/css/main.0eb96bd2.chunk.css",
+    "main.js": "/pixelated-charlies-nft/static/js/main.5a5e139a.chunk.js",
+    "main.js.map": "/pixelated-charlies-nft/static/js/main.5a5e139a.chunk.js.map",
+    "runtime-main.js": "/pixelated-charlies-nft/static/js/runtime-main.8bfb25d5.js",
+    "runtime-main.js.map": "/pixelated-charlies-nft/static/js/runtime-main.8bfb25d5.js.map",
+    "static/js/2.26d65319.chunk.js": "/pixelated-charlies-nft/static/js/2.26d65319.chunk.js",
+    "static/js/2.26d65319.chunk.js.map": "/pixelated-charlies-nft/static/js/2.26d65319.chunk.js.map",
+    "static/js/3.1414eae9.chunk.js": "/pixelated-charlies-nft/static/js/3.1414eae9.chunk.js",
+    "static/js/3.1414eae9.chunk.js.map": "/pixelated-charlies-nft/static/js/3.1414eae9.chunk.js.map",
+    "index.html": "/pixelated-charlies-nft/index.html",
+    "static/css/main.0eb96bd2.chunk.css.map": "/pixelated-charlies-nft/static/css/main.0eb96bd2.chunk.css.map",
+    "static/js/2.26d65319.chunk.js.LICENSE.txt": "/pixelated-charlies-nft/static/js/2.26d65319.chunk.js.LICENSE.txt",
+    "static/media/reset.css": "/pixelated-charlies-nft/static/media/ka1.5df8cd54.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bfb25d5.js",
+    "static/js/2.26d65319.chunk.js",
+    "static/css/main.0eb96bd2.chunk.css",
+    "static/js/main.5a5e139a.chunk.js"
+  ]
+}
