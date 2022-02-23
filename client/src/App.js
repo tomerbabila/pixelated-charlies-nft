@@ -4,6 +4,7 @@ import { connect } from './redux/blockchain/blockchainActions';
 import { fetchData } from './redux/data/dataActions';
 import * as s from './styles/globalStyles';
 import styled from 'styled-components';
+import { BASE_PATH } from 'constants';
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -175,15 +176,12 @@ function App() {
   };
 
   const getConfig = async () => {
-    const configResponse = await fetch(
-      `${process.env.REACT_APP_BASE_URL}/config/config.json`,
-      {
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
-        },
-      }
-    );
+    const configResponse = await fetch(`${BASE_PATH}/config/config.json`, {
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+    });
     const config = await configResponse.json();
     SET_CONFIG(config);
   };
@@ -203,9 +201,7 @@ function App() {
         ai={'center'}
         style={{ padding: 24, backgroundColor: 'var(--primary)' }}
         image={
-          CONFIG.SHOW_BACKGROUND
-            ? `${process.env.REACT_APP_BASE_URL}/config/images/bg.png`
-            : null
+          CONFIG.SHOW_BACKGROUND ? `${BASE_PATH}/config/images/bg.png` : null
         }
       >
         <h1 className='header'>Pixelated Charlies</h1>
@@ -214,7 +210,7 @@ function App() {
           <s.Container flex={1} jc={'center'} ai={'center'}>
             <StyledImg
               alt={'example'}
-              src={`${process.env.REACT_APP_BASE_URL}/config/images/example.gif`}
+              src={`${BASE_PATH}/config/images/example.gif`}
             />
           </s.Container>
           <s.SpacerLarge />
@@ -383,7 +379,7 @@ function App() {
           <s.Container flex={1} jc={'center'} ai={'center'}>
             <StyledImg
               alt={'example'}
-              src={`${process.env.REACT_APP_BASE_URL}/config/images/example.gif`}
+              src={`${BASE_PATH}/config/images/example.gif`}
               style={{ transform: 'scaleX(-1)' }}
             />
           </s.Container>
