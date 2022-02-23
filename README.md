@@ -7,14 +7,14 @@ To find out more please visit:
 [🔗 EtherScan](https://rinkeby.etherscan.io/token/0xb4c5d371c323be717009c0287e26c4dd5f40908b)
 [💸 Owner](https://rinkeby.etherscan.io/address/0xd0cf2188629a6a1c6cb85e2065093903831ea50a)
 
-## Stack 🔥:
+## Stack 🔥
 
-- Art Engine - [HashLips Art Engine](https://github.com/HashLips/hashlips_art_engine)
-- Smart Contracts - [ERC721](https://github.com/HashLips/hashlips_nft_contract/blob/main/contract/SimpleNft.sol)
+- Art engine - [HashLips Art Engine](https://github.com/HashLips/hashlips_art_engine)
+- Smart contracts - [ERC721](https://github.com/HashLips/hashlips_nft_contract/blob/main/contract/SimpleNft.sol) - deployed by Remix
 - Client - [HashLips Minting DApp boilerplate](https://github.com/HashLips/hashlips_nft_minting_dapp) - using React.js
-- Using node.js (14.18.1) and npm (7.14.0)
+- Using Node.js (14.18.1) and NPM (7.14.0)
 
-## IPFS CIDs ℹ:
+## IPFS CIDs ℹ
 
 - Collection images - `ipfs://Qmek6bLTP64DGfghi95Vn126vfhvmo38w5eBt68vnxXcWS`
 - Collection metadata - `ipfs://QmUhZ2h8mMkqHbd8ECUp9DJ3RFSZ4NcCfDwh3PXibQHqpn`
